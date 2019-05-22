@@ -1,0 +1,45 @@
+ fasta
+FASTA searches a protein or DNA sequence data bank version 36.06 July, 2010
+Please cite:
+ W.R. Pearson & D.J. Lipman PNAS (1988) 85:2444-2448
+
+Query: GT8.7, 218 aa
+  1>>>GT8.7 | 266 40001 90043 | transl. of pa875.con, - 218 aa - 218 aatest-out
+Library: test-db.faa
+     3964 residues in    15 sequences
+
+     3964 residues in    15 sequences
+Statistics: (shuffled [500]) Expectation_n fit: rho(ln(x))= 3.1922+/-0.0132; mu= 21.8819+/- 0.711
+ mean_var=78.8775+/-42.013, 0's: 0 Z-trim: 0  B-trim: 0 in 0/7
+ Lambda= 0.144410
+ statistics sampled from 15 (15) to 500 sequences
+Algorithm: FASTA (3.7 Mar 2010) [optimized]
+Parameters: BL50 matrix (15:-5) ktup: 2
+ join: 42 (1), opt: 30 (1), open/ext: -10/-2, width:  16
+
+The best scores are:                                      opt bits E(15)
+XP_021051599.1 glutathione S-transferase Mu 1 isof ( 218) 1455 311.4 1.3e-88
+NP_001272186.1 glutathione S-transferase M5 [Macac ( 218) 1157 249.3 6.5e-70
+AKC54665.1 Mu-type glutathione S-transferases [Meg ( 218)  954 207.0 3.5e-57
+XP_016781472.1 PREDICTED: glutathione S-transferas ( 162)  656 144.7 1.5e-38
+XP_022648447.1 glutathione S-transferase Mu 1-like ( 242)  415 94.8 2.3e-23
+KPP56202.1 hypothetical protein Z043_126224 [Scler ( 115)  374 85.7 6.2e-21
+XP_007962665.1 PREDICTED: glutathione S-transferas ( 210)  345 80.1 5.4e-19
+NP_503701.1 Glutathione S-transferase P 10 [Caenor ( 210)  316 74.0 3.5e-17
+OBS71798.1 hypothetical protein A6R68_13626 [Neoto ( 182)  314 73.5 4.4e-17
+XP_005443891.1 PREDICTED: hematopoietic prostaglan ( 199)  265 63.4 5.5e-14
+XP_005517524.1 PREDICTED: hematopoietic prostaglan ( 199)  262 62.7 8.4e-14
+XP_003257577.1 PREDICTED: hematopoietic prostaglan ( 199)  252 60.7 3.6e-13
+NP_055300.1 hematopoietic prostaglandin D synthase ( 199)  251 60.5 4.1e-13
+KRZ93936.1 putative splicing factor, arginine/seri (1201)  226 56.6 3.5e-11
+KFP29422.1 Hematopoietic prostaglandin D synthase  ( 192)  197 49.2 9.9e-10
+
+
+
+218 residues in 1 query   sequences
+3964 residues in 15 library sequences
+ Tcomplib [36.06] (6 proc)
+ start: Sun Feb 11 22:35:54 2018 done: Sun Feb 11 22:36:58 2018
+ Total Scan time:  0.010 Total Display time:  0.000
+
+Function used was FASTA [version 36.06 July, 2010]
